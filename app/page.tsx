@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             {/* Profile Image */}
             <Image 
-              src="/profile.jpg" 
+              src="/portfolio/profile.jpg" 
               alt="Randy Andrei Andres"
               width={128} 
               height={128}
@@ -40,7 +40,7 @@ export default function Home() {
                   Send Email
                 </a>
                 <a 
-                  href="/resume.pdf" 
+                  href="/portfolio/resume.pdf" 
                   download
                   className="px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition font-medium"
                 >
@@ -160,7 +160,7 @@ export default function Home() {
                     name: 'Vehiscan RFID', 
                     desc: 'Web Based Vehicle Verification System', 
                     url: 'github.com/rAndylicioso/Vehiscan-RFID',
-                    video: '/videos/vehiscan-demo.mp4'
+                    video: '/portfolio/videos/vehiscan-demo.mp4'
                   },
                 ].map((project, idx) => (
                   <div key={idx} className="border border-zinc-200 rounded-lg overflow-hidden hover:shadow-lg transition group">
@@ -196,19 +196,19 @@ export default function Home() {
                   { 
                     name: 'Prompt Engineering', 
                     issuer: 'FreeAcademy',
-                    logo: '/logos/freeacademy.png',
+                    logo: '/portfolio/logos/freeacademy.png',
                     url: 'https://freeacademy.ai/verify/CA-2026-PE-BP5JLW'
                   },
                   { 
                     name: 'Google Gemini Certified University Student', 
                     issuer: 'Google',
-                    logo: '/logos/google.png',
+                    logo: '/portfolio/logos/google.png',
                     url: 'https://edu.google.accredible.com/a852ba0d-d6b3-462b-8264-3e44bab45119#acc.v4w5haG0'
                   },
                   { 
                     name: 'Google Gemini Certified Educator', 
                     issuer: 'Google',
-                    logo: '/logos/google.png',
+                    logo: '/portfolio/logos/google.png',
                     url: 'https://edu.google.accredible.com/7a646af0-c374-4329-80e7-8016b99d601a#acc.JOAMXaxt'
                   },
                 ].map((cert, idx) => (
